@@ -1,4 +1,3 @@
-@"
 name: Performance Tests
 
 on:
@@ -39,4 +38,3 @@ jobs:
         with:
           name: smoke-performance-report
           path: reports/smoke/
-"@ | Set-Content .github\workflows\performance.yml
